@@ -33,10 +33,13 @@ function App() {
         <div className="main-layout">
             {/* <!---loader ---> */}
             {/* <Loader /> */}
+
+            
             <div className="wrapper">
 
                  <Header />
                 <div id="content">
+                <p>HELLLLLLO</p>
                   <Routes>
                         
                         <Route path='/' element={<Home />} />
